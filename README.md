@@ -37,10 +37,10 @@ Para desplegar este servidor web en una nueva máquina Linux, siga estos pasos:
    ```bash
    http://<IP_DEL_SERVIDOR>:8080.
 
-##🧠 Nota Técnica: ¿Por qué Git no reemplaza a Docker?
+## 🧠 Nota Técnica: ¿Por qué Git no reemplaza a Docker?
 El control de versiones (Git) rastrea cambios únicamente en el código fuente (archivos .html). Sin embargo, no guarda el entorno.
 El respaldo de Docker (.tar) empaqueta el código junto con el sistema operativo base, las configuraciones de Nginx, dependencias y variables de entorno. Si el servidor falla, Git requeriría reconfigurar todo desde cero, mientras que la imagen de Docker levanta el servicio exacto en segundos.
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 Nathan Ezequiaz Torrico Torrez & Deepseek AI
 Estudiante de Ingeniería - Sistemas Operativos
